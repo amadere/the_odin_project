@@ -1,0 +1,36 @@
+Basic Ruby on Rails data types:
+
+Numbers
+Ruby has typical math operators. 
+
+1 + 1 
+2 - 1
+2 * 2
+10 / 5
+2 ** 2 (exponent)
+8 % 2 (modulus, or finding the remainder of division)
+
+Integers and Floats
+Integers are whole numbers. Floats are numbers that contain a decimal point. 
+When doing arithmetic with integers, the result will always be an integer.
+
+17 / 5 = 3 (not 3.4)
+17 / 5.0 = 3.4
+
+Converting number types:
+13.to_f = 13.0
+13.9.to_i = 13
+
+Number Methods:
+6.even? = true
+7.even? = false
+6.odd? = false
+7.odd? = true
+
+Strings 
+Strings can be formed with " " or ' ' quotations (string literals)
+
+Concatenation
+Plus operator:  "Welcome " + "to " + "Odin!" = "Welcome to Odin!"
+Shovel operator: "Welcome " << "to " << "Odin!" = "Welcome to Odin!"
+Concat method: "Welcome ".concat("to ").concat("Odin!")
